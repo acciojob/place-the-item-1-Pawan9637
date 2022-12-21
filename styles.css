@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: lightgray; */
+    /* width: 250px; */
+    /* height: 250px; */
+    justify-content: space-between;
+}
+
+.flex-container div{
+    width: 250px;
+    height: 250px;
+}
+
+#div1{
+    background-color: aqua;
+}
+
+#div2{
+    background-color:blue;
+}
+
+#div3{
+    background-color:red;
+}
