@@ -5,13 +5,14 @@
     
 }
 
-.flex-container{
+.holder{
     display: flex;
     flex-direction: row;
     /* background-color: lightgray; */
     /* width: 250px; */
     /* height: 250px; */
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .flex-container div{
